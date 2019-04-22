@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/remove"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textout"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:text="Supprimer" />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/textout"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="163dp"
+        android:hint="Nom" />
+
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/montant2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="montant "
+        android:imeOptions="actionDone"
+        android:layout_toRightOf="@id/textout"
+        android:inputType="textPersonName"
+        android:singleLine="true" />
+
+</RelativeLayout>
